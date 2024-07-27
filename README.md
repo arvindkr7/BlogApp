@@ -7,7 +7,7 @@
 - Node.js and npm
 
 ### Backend Setup (Django)
-1. Vavigate to the backend directory:
+1. Navigate to the backend directory:
     ```sh
     cd backend
 2. Create a virtual environment and activate it:
@@ -36,12 +36,6 @@
 2. Install dependencies:
     ```sh
     npm install
-    ```
-3. Set up proxy to backend in `package.json`:
-    ```json
-    {
-      "proxy": "http://localhost:8000"
-    }
     ```
 
 ### Running the Application
